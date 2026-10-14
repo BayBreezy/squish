@@ -4,7 +4,8 @@ version = "0.0.1"
 description = "Compress and convert images locally."
 authors = ["Behon Baker"]
 license = "GPL-3.0-or-later"
-repository = ""
+repository = "https://github.com/BayBreezy/squish"
+homepage = "https://github.com/BayBreezy/squish"
 edition = "2024"
 rust-version = "1.90"
 

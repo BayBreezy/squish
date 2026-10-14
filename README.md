@@ -1,5 +1,9 @@
 # Squish
 
+[![CI](https://github.com/BayBreezy/squish/actions/workflows/ci.yml/badge.svg)](https://github.com/BayBreezy/squish/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/BayBreezy/squish?include_prereleases&sort=semver)](https://github.com/BayBreezy/squish/releases)
+[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
+
 **A local, offline alternative to TinyPNG / Tinify.** Drop in images (or whole folders), pick one or more output formats and a quality, and Squish compresses and converts them on your own machine. Nothing is uploaded anywhere.
 
 <p align="center">
@@ -60,7 +64,7 @@ Folders are scanned recursively. Only image files are processed; other files are
 
 ## Install
 
-Download the installer for your system from the project's **Releases** page:
+Download the installer for your system from the **[Releases page](https://github.com/BayBreezy/squish/releases)**:
 
 | OS      | File                                              |
 | ------- | ------------------------------------------------- |

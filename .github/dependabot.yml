@@ -5,6 +5,11 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    ignore:
+      # TypeScript 7 (native port) has no JS API; Vue's SFC compiler needs it.
+      # Revisit when Vue/vue-tsc support it.
+      - dependency-name: typescript
+        update-types: ["version-update:semver-major"]
     groups:
       frontend:
         patterns: ["*"]

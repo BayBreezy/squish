@@ -49,6 +49,8 @@ fn about_metadata<R: Runtime>(app: &AppHandle<R>) -> AboutMetadata<'_> {
     comments: Some(DESCRIPTION.into()),
     authors: Some(vec!["Behon Baker".into()]),
     license: Some("GPL-3.0-or-later".into()),
+    website: Some("https://github.com/BayBreezy/squish".into()),
+    website_label: Some("github.com/BayBreezy/squish".into()),
     icon: app.default_window_icon().cloned(),
     ..Default::default()
   }

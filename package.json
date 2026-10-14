@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "description": "Compress and convert images locally.",
+  "homepage": "https://github.com/BayBreezy/squish",
+  "bugs": {
+    "url": "https://github.com/BayBreezy/squish/issues"
+  },
   "license": "GPL-3.0-or-later",
-  "author": {
-    "name": "Behon Baker",
-    "email": "behon.baker@yahoo.com",
-    "url": "https://behonbaker.com"
+  "author": "Behon Baker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BayBreezy/squish.git"
   },
   "type": "module",
   "scripts": {
