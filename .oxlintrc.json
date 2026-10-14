@@ -1,0 +1,45 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import", "vue"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "rules": {
+    "unicorn/no-null": "off",
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error"]
+      }
+    ]
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "es2024": true
+  },
+  "globals": {
+    "defineNuxtConfig": "readonly",
+    "definePageMeta": "readonly",
+    "useHead": "readonly",
+    "useColorMode": "readonly"
+  },
+  "ignorePatterns": [
+    ".nuxt",
+    ".output",
+    ".data",
+    "dist",
+    "node_modules",
+    "src-tauri/target",
+    "src-tauri/gen"
+  ],
+  "overrides": [
+    {
+      "files": ["scripts/**"],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
+}

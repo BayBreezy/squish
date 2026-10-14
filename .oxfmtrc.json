@@ -1,0 +1,33 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "vueIndentScriptAndStyle": true,
+  "sortTailwindcss": {
+    "stylesheet": "./app/assets/css/tailwind.css",
+    "functions": ["tv", "tw", "clsx", "cn"]
+  },
+  "ignorePatterns": [
+    ".nuxt",
+    ".output",
+    ".data",
+    "dist",
+    "node_modules",
+    "bun.lock",
+    "src-tauri/target",
+    "src-tauri/gen",
+    "src-tauri/icons",
+    "LICENSE",
+    "app/components/Ui",
+    "app/utils/badge-colors.ts",
+    "app/utils/translucent.ts",
+    "src-tauri",
+    "skills-lock.json",
+    ".agents",
+    ".claude",
+    ".mcp.json"
+  ]
+}

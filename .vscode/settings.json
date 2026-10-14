@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.classFunctions": ["tw", "clsx", "tw\\.[a-z-]+"],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "\\btv\\(\\s*((?:\"(?:\\\\.|[^\"\\\\])*\"|'(?:\\\\.|[^'\\\\])*'|`(?:\\\\.|[^`\\\\])*`|[^)]*)*)\\)",
+      "[\"']([^\"']*)[\"']"
+    ],
+    [
+      "\\btv\\(\\s*((?:\"(?:\\\\.|[^\"\\\\])*\"|'(?:\\\\.|[^'\\\\])*'|`(?:\\\\.|[^`\\\\])*`|[^)]*)*)\\)",
+      "`([^`]*)`"
+    ]
+  ]
+}
